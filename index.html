@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Vita — Luxury Salon, Nairobi</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Decorative gradient orbs (background atmosphere) -->
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+
+    <!-- =============================================
+         NAVIGATION
+    ============================================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-accent">Bella</span> Vita
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span class="ham-line"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <a href="https://wa.me/254712345678?text=Hello%20Bella%20Vita%2C%20I%20would%20like%20to%20book%20an%20appointment."
+                       class="nav-cta" target="_blank" rel="noopener">Book Now</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- =============================================
+         HERO SECTION
+    ============================================== -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-inner fade-in">
+            <span class="hero-pre">✦  Nairobi's Premier Beauty Destination  ✦</span>
+            <h1 class="hero-title">
+                <span class="hero-title-italic">The Art of</span><br>
+                Beautiful Living
+            </h1>
+            <div class="hero-line"></div>
+            <p class="hero-desc">
+                Step into a sanctuary of refined beauty. Bespoke hair artistry, flawless makeup,
+                and luxurious nail care — all crafted with passion and precision.
+            </p>
+            <div class="hero-btns">
+                <a href="https://wa.me/254712345678?text=Hello%20Bella%20Vita%2C%20I%20would%20like%20to%20book%20an%20appointment."
+                   class="btn btn-primary" target="_blank" rel="noopener">
+                    <i data-lucide="message-circle" style="width:18px;height:18px;"></i>
+                    Book on WhatsApp
+                </a>
+                <a href="#services" class="btn btn-outline">
+                    Our Services
+                    <i data-lucide="arrow-down" style="width:16px;height:16px;"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="hero-scroll-bar"></div>
+        </div>
+    </section>
+
+
+    <!-- =============================================
+         SERVICES SECTION
+    ============================================== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-head fade-in">
+                <span class="section-eyebrow">What We Offer</span>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-lead">Each treatment is a bespoke experience designed to enhance your natural beauty.</p>
+            </div>
+
+            <div class="services-grid">
+                <article class="svc-card fade-in">
+                    <div class="svc-card-img">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=600&h=400&q=80"
+                             alt="Professional hair styling" loading="lazy">
+                        <span class="svc-badge">Popular</span>
+                    </div>
+                    <div class="svc-card-body">
+                        <div class="svc-icon"><i data-lucide="scissors"></i></div>
+                        <h3 class="svc-card-title">Hair Styling</h3>
+                        <p class="svc-card-desc">Luxury blowouts, precision cuts, balayage, vivid colour, and silk-press treatments for every texture.</p>
+                        <div class="svc-card-foot">
+                            <span class="svc-price">From Ksh 2,500</span>
+                            <a href="https://wa.me/254712345678?text=I%27d%20like%20to%20book%20Hair%20Styling."
+                               class="svc-book" target="_blank" rel="noopener">Book Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="svc-card fade-in">
+                    <div class="svc-card-img">
+                        <img src="https://images.unsplash.com/photo-1595959183082-7b570b7e1e2d?auto=format&fit=crop&w=600&h=400&q=80"
+                             alt="African braiding styles" loading="lazy">
+                    </div>
+                    <div class="svc-card-body">
+                        <div class="svc-icon"><i data-lucide="sparkles"></i></div>
+                        <h3 class="svc-card-title">Braiding</h3>
+                        <p class="svc-card-desc">Knotless box braids, cornrows, goddess locs, fulani styles, and twists — protective artistry at its finest.</p>
+                        <div class="svc-card-foot">
+                            <span class="svc-price">From Ksh 4,000</span>
+                            <a href="https://wa.me/254712345678?text=I%27d%20like%20to%20book%20Braiding."
+                               class="svc-book" target="_blank" rel="noopener">Book Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="svc-card fade-in">
+                    <div class="svc-card-img">
+                        <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=600&h=400&q=80"
+                             alt="Professional makeup" loading="lazy">
+                        <span class="svc-badge">Bridal</span>
+                    </div>
+                    <div class="svc-card-body">
+                        <div class="svc-icon"><i data-lucide="palette"></i></div>
+                        <h3 class="svc-card-title">Makeup</h3>
+                        <p class="svc-card-desc">Bridal glam, editorial beauty, soft-day looks, and party perfection using international luxury brands.</p>
+                        <div class="svc-card-foot">
+                            <span class="svc-price">From Ksh 5,000</span>
+                            <a href="https://wa.me/254712345678?text=I%27d%20like%20to%20book%20Makeup."
+                               class="svc-book" target="_blank" rel="noopener">Book Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="svc-card fade-in">
+                    <div class="svc-card-img">
+                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&h=400&q=80"
+                             alt="Luxury nail art" loading="lazy">
+                    </div>
+                    <div class="svc-card-body">
+                        <div class="svc-icon"><i data-lucide="heart"></i></div>
+                        <h3 class="svc-card-title">Manicure & Pedicure</h3>
+                        <p class="svc-card-desc">Gel extensions, acrylic sculpting, chrome finishes, hand-painted nail art, and spa-grade hand & foot care.</p>
+                        <div class="svc-card-foot">
+                            <span class="svc-price">From Ksh 2,000</span>
+                            <a href="https://wa.me/254712345678?text=I%27d%20like%20to%20book%20Manicure%20%26%20Pedicure."
+                               class="svc-book" target="_blank" rel="noopener">Book Now</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =============================================
+         ABOUT SECTION
+    ============================================== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img-col fade-in">
+                    <div class="about-img-frame">
+                        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&h=900&q=80"
+                             alt="Bella Vita salon interior" loading="lazy">
+                    </div>
+                    <div class="about-badge-float">
+                        <strong>10+</strong>
+                        <span>Years of<br>Excellence</span>
+                    </div>
+                </div>
+                <div class="about-text-col fade-in">
+                    <span class="section-eyebrow">Our Story</span>
+                    <h2 class="section-title left">Where Beauty<br>Becomes an Art</h2>
+                    <p class="about-p">
+                        Born from a passion for transformative beauty, <strong>Bella Vita</strong> opened its doors in 2014 with a singular vision: to create Nairobi's most refined salon experience. Our name, Italian for "beautiful life," is not just a brand — it is a promise.
+                    </p>
+                    <p class="about-p">
+                        Every stylist on our team has trained internationally, bringing techniques from Milan, Paris, and New York. We believe in slow beauty — the kind that comes from patience, premium products, and genuine care.
+                    </p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <span class="about-stat-num">8,000+</span>
+                            <span class="about-stat-lbl">Happy Clients</span>
+                        </div>
+                        <div class="about-stat-sep"></div>
+                        <div class="about-stat">
+                            <span class="about-stat-num">15</span>
+                            <span class="about-stat-lbl">Expert Artists</span>
+                        </div>
+                        <div class="about-stat-sep"></div>
+                        <div class="about-stat">
+                            <span class="about-stat-num">4.9</span>
+                            <span class="about-stat-lbl">Google Rating</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/254712345678?text=Hello%20Bella%20Vita%2C%20I%27d%20love%20to%20visit."
+                       class="btn btn-primary" target="_blank" rel="noopener">Book a Visit</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =============================================
+         GALLERY SECTION
+    ============================================== -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-head fade-in">
+                <span class="section-eyebrow">Our Portfolio</span>
+                <h2 class="section-title">The Gallery</h2>
+                <p class="section-lead">A visual journey through the transformations and artistry we create every day.</p>
+            </div>
+            <div class="gallery-grid fade-in">
+                <div class="g-cell g-tall">
+                    <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=500&h=780&q=80" alt="Hair transformation" loading="lazy">
+                    <div class="g-overlay"><span>Hair Transformation</span></div>
+                </div>
+                <div class="g-cell">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&h=500&q=80" alt="Glam look" loading="lazy">
+                    <div class="g-overlay"><span>Glam Look</span></div>
+                </div>
+                <div class="g-cell">
+                    <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=500&h=500&q=80" alt="Nail art" loading="lazy">
+                    <div class="g-overlay"><span>Nail Art</span></div>
+                </div>
+                <div class="g-cell g-wide">
+                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&h=500&q=80" alt="Braiding" loading="lazy">
+                    <div class="g-overlay"><span>Braiding Artistry</span></div>
+                </div>
+                <div class="g-cell">
+                    <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=500&h=500&q=80" alt="Makeup" loading="lazy">
+                    <div class="g-overlay"><span>Makeup</span></div>
+                </div>
+                <div class="g-cell">
+                    <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=500&h=500&q=80" alt="Skincare" loading="lazy">
+                    <div class="g-overlay"><span>Skincare</span></div>
+                </div>
+                <div class="g-cell g-tall">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=500&h=780&q=80" alt="Cut and style" loading="lazy">
+                    <div class="g-overlay"><span>Cut & Style</span></div>
+                </div>
+                <div class="g-cell">
+                    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=500&h=500&q=80" alt="Salon interior" loading="lazy">
+                    <div class="g-overlay"><span>Our Space</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =============================================
+         CONTACT SECTION
+    ============================================== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-head fade-in">
+                <span class="section-eyebrow contact-eyebrow">Get in Touch</span>
+                <h2 class="section-title contact-title">Contact Us</h2>
+                <p class="section-lead contact-lead">We'd love to welcome you. Reach out for appointments or inquiries.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-cards fade-in">
+                    <div class="c-card">
+                        <div class="c-card-icon"><i data-lucide="phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+254712345678">+254 712 345 678</a>
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <div class="c-card-icon"><i data-lucide="map-pin"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Westlands, Nairobi, Kenya<br>Sarit Centre, 3rd Floor</p>
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <div class="c-card-icon"><i data-lucide="clock"></i></div>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon – Sat: 9:00 AM – 8:00 PM<br>Sunday: 10:00 AM – 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="c-card">
+                        <div class="c-card-icon c-wa"><i data-lucide="message-circle"></i></div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/254712345678" target="_blank" rel="noopener">Chat with us instantly</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map fade-in">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.284842931557!2d36.80!3d-1.26!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f176c8f0f5a1b%3A0x44d52479fb6b0!2sWestlands%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske"
+                        width="100%" height="100%" style="border:0; border-radius:20px;"
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Bella Vita location">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =============================================
+         FOOTER
+    ============================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo"><span class="logo-accent">Bella</span> Vita</a>
+                    <p class="footer-tagline">Nairobi's sanctuary of refined beauty. Indulge in bespoke hair, makeup, and nail artistry within an atmosphere of calm luxury.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-col-h">Navigate</h4>
+                    <ul class="footer-col-ul">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-col-h">Services</h4>
+                    <ul class="footer-col-ul">
+                        <li><a href="#services">Hair Styling</a></li>
+                        <li><a href="#services">Braiding</a></li>
+                        <li><a href="#services">Makeup</a></li>
+                        <li><a href="#services">Manicure & Pedicure</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-col-h">Follow Us</h4>
+                    <div class="footer-socials">
+                        <a href="https://instagram.com/bellavitasalon" class="f-social" target="_blank" rel="noopener" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                        <a href="https://wa.me/254712345678" class="f-social" target="_blank" rel="noopener" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>
+                        <a href="https://facebook.com/bellavitasalon" class="f-social" target="_blank" rel="noopener" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                        <a href="https://tiktok.com/@bellavitasalon" class="f-social" target="_blank" rel="noopener" aria-label="TikTok"><i data-lucide="music-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Bella Vita Salon. All rights reserved.</p>
+                <p>Crafted with care in Nairobi</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/254712345678?text=Hello%20Bella%20Vita%2C%20I%20would%20like%20to%20book%20an%20appointment."
+       class="fab-wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.132 6.744 3.054 9.378L1.054 31.29l6.118-1.96C9.72 30.994 12.764 32 16.004 32 24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.314 22.61c-.39 1.1-1.932 2.014-3.168 2.28-.844.18-1.946.324-5.658-1.216-4.75-2.468-7.808-7.3-8.046-7.624-.23-.324-1.928-2.568-1.928-4.896s1.222-3.474 1.656-3.95c.434-.476.948-.596 1.264-.596.316 0 .632.002.908.016.292.016.684-.112 1.07.816.39.948 1.328 3.236 1.444 3.47.118.236.196.512.04.828-.158.316-.236.512-.472.79-.236.276-.496.618-.708.828-.236.236-.482.492-.206.964.276.472 1.228 2.024 2.636 3.28 1.812 1.606 3.34 2.104 3.812 2.34.472.236.748.198 1.022-.118.276-.316 1.184-1.38 1.5-1.856.316-.476.632-.394 1.064-.236.434.158 2.752 1.298 3.224 1.534.472.236.788.354.906.55.118.196.118 1.124-.272 2.224z"/></svg>
+        <span class="fab-wa-tip">Chat with us</span>
+    </a>
+
+    <!-- Back to top -->
+    <button class="fab-top" id="fabTop" aria-label="Back to top">
+        <i data-lucide="chevron-up" style="width:20px;height:20px;"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
